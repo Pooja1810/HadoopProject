@@ -7,7 +7,7 @@ Press 1 to manual setup hadoop cluster :
 Press 2 to automatic setup hadoop cluster :
 """
 print options 
-
+#ch for storing user options
 ch=raw_input()
 
 print "----------------------------------------"
