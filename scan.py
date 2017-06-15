@@ -1,7 +1,6 @@
 #!/usr/bin/python
 
 import   commands,time
-print "-------------------------------------------------"
 
 ip_list=[]
 ipaddr="192.168.50."
