@@ -10,12 +10,11 @@ print options
 
 ch=raw_input()
 
-print "-----------------------------------------------"
+print "----------------------------------------"
 
 if ch == '1':
 	print "good choice.... "
 	print "Firstly we'll scan CPU core and RAM info"
-	print "----------------------------------------"
 	execfile('scan.py')
 else :
 	print "bad choice"
