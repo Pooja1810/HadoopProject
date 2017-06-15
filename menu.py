@@ -9,7 +9,7 @@ press 3 to setup HIVE:
 """
 print options 
 
-#user_choice for  storing options
+#user_choice for  storing user options
 
 user_choice=raw_input()
 
