@@ -9,11 +9,11 @@ press 3 to setup HIVE:
 """
 print options 
 
-#ch for  storing options
+#user_choice for  storing options
 
 user_choice=raw_input()
 
-print "-------------------------------------------"
+	print "------------------------------------"
 
 if user_choice == '1' :
 	print "ok get ready to start hadoop cluster"
@@ -27,4 +27,4 @@ elif user_choice == '2' :
 
 else :
 	print "wrong option"
-	execfile('startpr.py')
+	execfile('start.py')
